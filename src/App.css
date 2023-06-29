@@ -1,6 +1,14 @@
 body{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-   box-sizing: border-box;
-   background-color: #242424;
+    box-sizing: border-box;
+      background-color: #e0e0e0;
+}
+.products-div{ 
+    width: 70%;
+    gap: 30px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
