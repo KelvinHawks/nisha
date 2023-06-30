@@ -1,0 +1,28 @@
+.contact-container{
+    text-align: center;
+    width: 100%;
+}
+.contact-container h1{
+    margin: 50px;
+    font-size: 35px;
+}
+.input-div{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 20px auto;
+}
+.input-div input{
+    padding: 8px;
+    width: 400px;
+    background-color: #fff;
+    font-size: 18px;
+    border: none;
+}
+.btn--outline{
+    border-radius: 3px;
+    margin-top: 45px;
+    width: 180px;
+    background-color: rgb(93, 135, 248);
+}

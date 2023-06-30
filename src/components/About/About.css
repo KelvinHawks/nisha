@@ -1,0 +1,32 @@
+.about-container{
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+}
+.about-container img{
+    width: 100%;
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+.content h1{
+    font-size: 33px;
+    color: #464646;
+}
+.content ul{
+    margin-top: 70px;
+}
+.content ul p{
+    font-size: 23px;
+}
+.content ul li{
+    font-size: 23px;
+    margin: 20px 30px;
+}
+.content li::marker{
+    font-size: 1.4rem;
+    color: rgb(93, 135, 248);;
+  }

@@ -1,14 +1,28 @@
 import React from 'react'
+import data from './allData'
 import './products.css'
-function Products(props) {
+
+function Products() {
+    const allData = data.map(items=>{
+        return(
+            <div className="display-single-component">
+                <img src={items.img} alt="img"/>
+                <h2>{items.title}</h2>
+                <p>{items.desc}</p>
+                <button>Read More</button>
+            </div>
+        )
+    })
   return (
-    <div className="container-content">
-        <div className="container-img">
-            <img src={props.feature.img} alt="images"/>
+    <div className='container-contents'>
+        <div className="header-div">
+            <p>Are you looking for</p>
+            <h2>Nisha Products?</h2>
+            <p>View some of our products</p>
         </div>
-        <div className="container-content">
-            <p>{props.feature.desc}</p>
-            <h5>Quantity: {props.feature.quantity}</h5>
+
+        <div className='contents'>
+           {allData}
         </div>
     </div>
   )
