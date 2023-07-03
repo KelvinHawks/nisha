@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact';
 //import Button from './components/Button/Button';
 import { BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,12 @@ function App() {
     
     <section>
       <Contact/>
+    </section>
+    <section>
+      <Router>
+        <Footer/>
+      </Router>
+      
     </section>
     </>
   );

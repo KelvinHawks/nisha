@@ -22,7 +22,7 @@
 }
 .btn--outline{
     border-radius: 3px;
-    margin-top: 45px;
+    margin: 45px 0;
     width: 180px;
     background-color: rgb(93, 135, 248);
 }
