@@ -26,3 +26,13 @@
     width: 180px;
     background-color: rgb(93, 135, 248);
 }
+form p{
+    color: rgb(252, 36, 36);
+}
+.ui-message-success{
+    width: 20%;
+    margin: auto;
+    padding: 4px 7px;
+    background-color: rgb(155, 228, 155);
+    color: rgb(40, 248, 40);
+}
