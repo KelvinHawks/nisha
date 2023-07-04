@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nisha/static/css/main.bab241fe.css",
+    "main.js": "/nisha/static/js/main.a79842f2.js",
+    "static/js/787.1d9b98e8.chunk.js": "/nisha/static/js/787.1d9b98e8.chunk.js",
+    "index.html": "/nisha/index.html",
+    "main.bab241fe.css.map": "/nisha/static/css/main.bab241fe.css.map",
+    "main.a79842f2.js.map": "/nisha/static/js/main.a79842f2.js.map",
+    "787.1d9b98e8.chunk.js.map": "/nisha/static/js/787.1d9b98e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bab241fe.css",
+    "static/js/main.a79842f2.js"
+  ]
+}
