@@ -7,11 +7,11 @@
     font-size: 35px;
 }
 .input-div{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     width: 80%;
     margin: 20px auto;
+    align-items: center;
 }
 .input-div input{
     padding: 8px;
@@ -19,6 +19,9 @@
     background-color: #fff;
     font-size: 18px;
     border: none;
+}
+.input-div textarea{
+    width: 400px;
 }
 .btn--outline{
     border-radius: 3px;
@@ -35,4 +38,10 @@ form p{
     padding: 4px 7px;
     background-color: rgb(155, 228, 155);
     color: rgb(40, 248, 40);
+}
+@media only screen and (max-width:700px){
+    .contact-container h1{
+        font-size: 28px;
+        margin: 35px;
+    }
 }

@@ -14,18 +14,20 @@ function App() {
     <Router>
       <Navbar/>
     </Router>
-     
-    <Homepage/>
 
     <section>
+      <Homepage/>
+    </section>
+      
+    <section >
       <Products/>
     </section>
 
-    <section>
+    <section id='aboutUs'>
       <About/>
     </section>
     
-    <section>
+    <section id='contact'>
       <Contact/>
     </section>
     <section>

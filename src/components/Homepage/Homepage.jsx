@@ -1,10 +1,11 @@
 import React from 'react'
 import './Homepage.css'
 
+
 function Homepage() {
   return (
     <div className='homepage-container'>
-      <img className="homeimage" src='./HomeImages/banner.avif' width='400px' alt='nisha'/>
+      <img className="homeimage" src='./HomeImages/banner.avif' alt='nisha'/>
       <div className="homepage-contents">
         <h1>A PERFECT SKIN CARE FOR YOU</h1>
       </div>

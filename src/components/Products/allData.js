@@ -2,26 +2,24 @@ export default [{
     id: 1,
     img: './HomeImages/nisha.jpg',
     title: 'Nisha perfumed',
-    desc: `Dr Wass Skin Clinic is a Middlesbrough-based
-    business offering reliable cosmetic procedures,
-     performed by a qualified MD. Dr Wass had tried to 
-     create his own website`
+    desc: `Nisha believes that truly
+     healthy skin starts with deep healing moisture.
+      With our experts and advanced Nisha® healing products. 
+    `
 },
 {
     id: 2,
     img: './HomeImages/nisha2.jpg',
     title: 'Nisha Pure',
-    desc: `Dr Wass Skin Clinic is a Middlesbrough-based
-        business offering reliable cosmetic procedures,
-        performed by a qualified MD. Dr Wass had tried to 
-        create his own website`
+    desc: `Nisha believes that truly
+    healthy skin starts with deep healing moisture.
+     With our experts and advanced Nisha® healing products.`
 },
 {
     id: 3,
     img: './HomeImages/nisha2.jpg',
     title: 'Toilet Detergent',
-    desc: `Dr Wass Skin Clinic is a Middlesbrough-based
-        business offering reliable cosmetic procedures,
-        performed by a qualified MD. Dr Wass had tried to 
-        create his own website`
+    desc: `Nisha believes that truly
+    healthy skin starts with deep healing moisture.
+     With our experts and advanced Nisha® healing products.`
 }]

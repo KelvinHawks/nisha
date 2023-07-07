@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     width: 24%;
-    height: 380px;
+    /* height: 380px; */
     justify-content: center;
     align-items: center;
     padding: 8px;
@@ -41,4 +41,30 @@
     border-radius: 23px;
     color: #fff;
     background-color: rgb(93, 135, 248);
+}
+@media only screen and (max-width:700px){
+    .header-div{
+        margin: 50px auto;
+    }
+    .header-div p{
+        font-size: 19px;
+    }
+    .header-div h2{
+        font-size: 24px;
+    }
+    .display-single-component{
+        margin: 0;
+        padding: 4px;
+        width: 100%;
+    }
+    .contents{
+        justify-content: space-between;
+    }
+    .display-single-component p{
+        font-size: 15px;
+        color: #242424;
+    }
+    .display-single-component h2{
+        font-size: 18px;
+    }
 }

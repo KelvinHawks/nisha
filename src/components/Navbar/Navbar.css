@@ -84,8 +84,8 @@
     .nav-menu {
       display: flex;
       flex-direction: column;
-      width: 100%;
-      
+      width: 94%;
+      margin: 0 auto;
       position: absolute;
       top: 80px;
       left: -100%;
@@ -104,7 +104,7 @@
     .nav-links {
       text-align: center;
       padding: 2rem;
-      width: 100%;
+      width: 90%;
       display: table;
     }
   

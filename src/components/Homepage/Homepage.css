@@ -41,3 +41,26 @@
     bottom: 30px;
     right: 150px;
 }
+
+@media only screen and (max-width:700px){
+    
+    .banner-img-1 img{
+        width: 70px;
+    }
+    .banner-img-2{
+        position: absolute;
+        bottom: 20px;
+        right: 50px;
+    }
+    .banner-img-1{
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+    .banner-img-2 img {
+        width: 70px;
+    }
+    .homepage-contents h1{
+        font-size: 20px;
+    }
+}

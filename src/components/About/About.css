@@ -5,7 +5,7 @@
 }
 .about-container img{
     width: 100%;
-    object-fit: cover;
+    height: 70vh;
 }
 .content{
     position: absolute;
@@ -29,4 +29,23 @@
 .content li::marker{
     font-size: 1.4rem;
     color: rgb(93, 135, 248);;
-  }
+}
+
+@media only screen and (max-width:700px){
+    .content h1{
+        font-size: 23px;
+    }
+    .content ul{
+        margin-top: 30px;
+    }
+    .content ul p{
+        font-size: 20px;
+    }
+    .content ul li{
+        font-size: 20px;
+    }
+    .content{
+        left: 50%;
+        transform: translate(-30%);
+    }
+}
